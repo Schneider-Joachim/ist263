@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week3 Noted</title>
+    <title>Week3 Notes</title>
 </head>
 <body>
-    <!-- REMEBER RULES AROUND CC AND TRADEMARK, ALWAYS USE UNCOPYRIGHTED IMG SOURCES OR commons licenses -->
+    <!-- REMEBER RULES AROUND COPYRIGHT AND TRADEMARK, ALWAYS USE UNCOPYRIGHTED IMG SOURCES OR commons licenses -->
     <h1>Unit 3</h1>
     <h2>Links</h2>
     <!-- External links redirect you externally, it brings you to another website -->
@@ -16,7 +16,7 @@
     <!-- Relative links redirect internally on your site- it brings you to another page -->
     <a href="week2notes.html">Week 2 Notes</a>
     <h3>Relative Link Outside the Folder</h3>
-    <!-- ../ means go up one lvl in file path -->
+    <!-- joachim-bio.html is a file within anoter folder so use ../ which means go up one directory lvl in folder to access that file in the path. ie, file is in directory above-->
     <a href="../lab01/joachim-bio.html">Some Link</a>
     <h3>Bookmark Links</h3>
     <!-- part 1 of 2 of bookmark tags -->
@@ -25,8 +25,16 @@
     <!-- find some image put in in ur folder and link it  -->
     <!-- use creative commons license or uncopyrighted img sources to avoid any stuff with copyright -->
     <img src="/lecturenotes/istcc.png" alt="creative commons license">
+        <!-- embedded links is when text is used as the link rather than the actual URL. -->
     <h2>Embedded Links</h2>
-    <!-- embedded links -->
-
+    <!-- An inline frame is used to embed another document within the current HTML document.
+        Title attribute describes the content of the iframe and should always be used. however i think i did this one wrong -->
+<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe> 
+<h2>Embedding Youtube videos</h2>
+<!-- Used youtube, clicked share and chose 'embedded', provided an easy copy paste -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v1AW11TeqOs?si=FMmA9e2F5yQP6QrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h2>Embedding Podcasts</h2>
+<!-- need to play with this and other embedded links more -->
+<iframe src="https://open.spotify.com/embed-podcast/episode/1OApzhja1uh479AuPcZ1KY" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </body>
 </html>
