@@ -35,5 +35,31 @@
         </tr>
     </table>
    <h2>Forms</h2>
+   <form action="" method="post">
+    <label>Name:</label><br>
+    <!-- inout type is for short text -->
+    <input type="text" id="fullname" name="fullname"><br>
+    <label>Special Instructions:</label>
+    <textarea id="special_instructions" name="special_instructions" rows="3" cols="60"></textarea><br>
+    <p>Delivery Instructions:</p>
+    <!-- Id AND names(can have underscore to seperate them) should have NO SPACES! value can have spaces -->
+    <input type="radio" id="pickup" name="pickup_delivery" value="customer will pick up">
+    <label for="pickup">Pickup</label>
+    <input type="radio" id="Delivery" name="pickup_delivery" value="customer chose delivery">
+    <!-- 'for' needs to match 'id' -->
+    <label for="delivery">Delivery</label>
+    <p>Do youwant extra sauce?</p>
+    <input type="checkbox" id="extra" name="extrasauce" value="yes">
+    <label for="extra">Yes</label><br><br>
+    <label>Hood you in</label><br>
+    <!-- All values must be in an option for selects -->
+    <select id="neighborhood" name="neighborhood">
+        <option></option>
+        <option value="fayetteville">Fayetteville</option>
+        <option value="eastfayette">East Fayette</option>
+        <option value="westcott">Westcott</option>
+    </select><br><br>
+    <input type="submit" value="SUBMIT FOR YO FOOD!">
+   </form>
 </body>
 </html>
