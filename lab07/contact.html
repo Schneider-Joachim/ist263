@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<!-- https://schneider-joachim.github.io/ist263/projectfolder/media/263P1.png
+  https://schneider-joachim.github.io/ist263/projectfolder/media/263P2.png
+  https://schneider-joachim.github.io/ist263/projectfolder/media/263P3.png
+
+
+-->
+
+<body>
+  <h1>Questions? Fill out the form below!</h1>
+  <!-- formspree acts as an external database -->
+    <form action="https://formspree.io/f/xkndjdaq" method="POST">
+        <!-- Text Field -->
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required><br><br>
+
+        <!-- Checkbox -->
+        <label><br>
+            <input type="checkbox" id="subscribe" name="subscribe" value="subscribe"> Subscribe to our newsletter
+        </label><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Type your message here" rows="4" required></textarea><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+  <h2>Contact</h2>
+  <div>
+    <p>Schneider Joachim<br>343 Hinds Hall<br>Syracuse, NY 13244</p>
+    <!-- mailto should redirect user to a mail form right? it doesnt tho, ask for help in class -->
+    <a href="mailto:sjoachim@syr.edu">sjoachim@syr.edu</a>
+  </div>
+  <hr>
+  <div>
+    <!-- img ALWAYS has alt text for accesbility purposes. Using ../ is effective in live browsers not internal browsers so always remember to path properly-->
+    <img src="../images/linkedinlogoresize.png" alt="linkedinbrandlogo"><br>
+    <a href="http://www.linkedin.com/in/schneider-joachim/">My LinkedIn profile!</a><br>
+    <!-- Used googlemaps, clicked share and chose embed a map', provided an easy copy paste -->
+    <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.153192607118!2d-76.13347999999999!3d43.03820820000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fb58d28bd%3A0xcf495dded391c69!2s110%20Smith%20Dr%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706684211393!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</body>
+</html>
