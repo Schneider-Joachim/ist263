@@ -1,0 +1,38 @@
+body{ 
+  background-color:#FF00FF
+};
+
+a {
+    color: #FFFFFF; /* Purple color for regular links */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+.colorchange{
+    color: #FFFFFF;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+nav{
+  background-color: #000000;
+}
+/* 
+.home{
+  color: #FFFFFF
+} */
+
+nav a {
+  color:#FF00FF;
+}
+
+nav a:hover {background-color: #ffd700;}
+
+
+nav {
+  border: 2px solid #000000; 
+  background-color: #000000; 
+  padding: 10px; 
+  margin-bottom: 30px
+}
