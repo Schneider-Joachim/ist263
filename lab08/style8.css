@@ -47,26 +47,26 @@ nav {
 }
 
 body {
-  margin: 20px;
+  margin: 1px;
   background-color: #FF00FF;
 }
 
 .contact-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2px;
 }
 
 .row {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .column {
   flex: 1;
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .row-1 {
