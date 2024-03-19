@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: #000000;
+            padding: 10px;
+            color: #ffffff;
+            display: flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 15px;
+          }
+          nav div{padding: 5px;}
+          .flexend{justify-content: flex-end;} /*push clmns to right*/
+          .spacearound{justify-content: space-around;} /*= space around columns*/
+          .spacebetween{justify-content: space-between;} /*= space around columns*/
+          .split, .leftside, .rightside {display: flex;}
+          .split{justify-content: space-between;}
+          
+    </style>
+    <!-- display flex goes on row- 
+    
+    columnss get sized rows dont get sized  -->
+</head>
+<body>
+    <nav class="flexend">
+        <div>home</div>
+        <div>about us</div>
+        <div>products</div>
+        <div>contact</div>
+    </nav>
+    <nav class="spacearound">
+        <div>home</div>
+        <div>about us</div>
+        <div>products</div>
+        <div>contact</div>
+    </nav>
+    <nav class="spacebetween">
+        <div>home</div>
+        <div>about us</div>
+        <div>products</div>
+        <div>contact</div>
+    </nav>
+    <nav class="splitnav">
+        <div class="leftside">
+            <div>home</div>
+            <div>about us</div>
+            <div>products</div>
+            <div>contact</div>
+        </div>
+        <div class="rightside">
+            <div>fbook</div>
+            <div>grammy</div>
+        </div>
+      
+    </nav>
+</body>
+</html>
