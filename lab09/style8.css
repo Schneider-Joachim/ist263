@@ -1,0 +1,78 @@
+body{ 
+  background-color:#FF00FF
+};
+
+a {
+    color: #FFFFFF; /* Purple color for regular links */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+.colorchange{
+    color: #060505;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+nav{
+  background-color: #000000;
+}
+/* 
+.home{
+  color: #FFFFFF
+} */
+
+nav a {
+  color:#FF00FF;
+}
+
+nav a:hover {background-color: #ffd700;}
+
+
+nav {
+  border: 2px solid #000000; 
+  background-color: #000000; 
+  padding: 10px; 
+  margin-bottom: 30px
+}
+
+.footfloat {
+  float: left;
+}
+
+.motto {
+  display: inline-block; /* Ensure the quoted text wraps properly */
+  margin-left: 60px; /* Adjust the margin as needed */
+}
+
+body {
+  margin: 1px;
+  background-color: #FF00FF;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.row-1 {
+  background-color: #FF00FF
+}
+
+.row-2 {
+  background-color: #FF00FF
+}
